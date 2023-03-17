@@ -1,18 +1,42 @@
-class Laptop:
-    def power_on(self):
-        print('starting the computer ......')
+# class Laptop:
+#     def power_on(self):
+#         print('starting the computer ......')
+#
+#     def power_off(self):
+#         print('shutting down ......')
+#
+#
+# lenovo = Laptop()
+# lenovo.power_on()
+#
+#
+# hp = Laptop()
+# hp.power_on()
+#
+#
+# print(lenovo)
 
-    def power_off(self):
-        print('shutting down ......')
+
+class Car:
+    def go(self):
+        print('Going ...')
+
+    def breake(self):
+        print('Stopping .....')
+
+    def fill_il(self, lt):
+        print(f'filling {lt}-lt  of gas')
 
 
-lenovo = Laptop()
-lenovo.power_on()
+volvo = Car()
 
+print(type(volvo))
+if isinstance(volvo, Car):
+    print('yes volvo is a Car')
 
-hp = Laptop()
-hp.power_on()
+volvo.go()
+honda = Car()
 
+honda.breake()
+honda.fill_il(66)
 
-print(lenovo)
-print(hp)
