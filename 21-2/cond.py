@@ -60,6 +60,13 @@
 # else:
 #     print('naaah not a golden name')
 
+# Ofek results:
+# name = input('What is your name? : ')
+# if len(name) > 8 or name.count('i') * 2:
+#     print('Golden name :)')
+# else:
+#     print('not golden name')
+
 # write a program to receive 3 numbers from the user
 # multiply the first 2 numbers and check if the user can calculate the answer
 # print 'hoollllllaaaay'  or ' such a loser '
@@ -80,7 +87,7 @@
 #
 # 90 + hiiii
 
-age = -10
+# age = -10
 
 # if 0 <= age <= 18:
 #     print('hii baby')
@@ -98,15 +105,16 @@ age = -10
 #         else:
 #             print('hii')
 
-if 0 <= age <= 18:
-    print('hi baby')
-elif 18 < age <= 90:
-    print('hi man')
-else:
-    print('hi')
+# if 0 <= age <= 18:
+#     print('hi baby')
+# elif 18 < age <= 90:
+#     print('hi man')
+# else:
+#     print('hi')
 # if 0 <= age <= 18:
 #     print('hii baby')
 # if 18 < age <= 90:
 #     print('hii man')
 # if age > 90:
 #     print('hii')
+
