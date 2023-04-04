@@ -1,0 +1,49 @@
+dvir
+ofek
+omer
+hodi
+israel
+eli
+Leanne Graham
+Ervin Howell
+Clementine Bauch
+Patricia Lebsack
+Chelsey Dietrich
+Mrs. Dennis Schulist
+Kurtis Weissnat
+Nicholas Runolfsdottir V
+Glenna Reichert
+Clementina DuBuque
+
+
+
+Write a python code to open 2 files for writing only 
+File1 -> high_sugar.txt
+File2 -> low_sugar.txt
+
+Send api request to 
+https://fruityvice.com/api/fruit/all
+
+Iterate all the fruits if the sugar greater than 7 add the name of the fruit to the first file 
+Else add the name to the second file
+
+
+Write a code prints all the high sugar fruits using open function  and the first file 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
