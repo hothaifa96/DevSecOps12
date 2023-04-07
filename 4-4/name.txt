@@ -24,7 +24,7 @@ File2 -> low_sugar.txt
 Send api request to 
 https://fruityvice.com/api/fruit/all
 
-Iterate all the fruits if the sugar greater than 7 add the name of the fruit to the first file 
+Iterate all the fruits if the sugar is greater than 7 add the name of the fruit to the first file 
 Else add the name to the second file
 
 
