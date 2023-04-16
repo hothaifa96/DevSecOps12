@@ -37,3 +37,8 @@ lines = n_file.readlines()
 print(lines)
 for line in lines:
     print(f'{line[:-1]} - ' ,end='')
+
+# file = open(file,mode)
+# file.write()
+
+
