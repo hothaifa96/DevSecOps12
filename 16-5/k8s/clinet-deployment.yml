@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+  labels:
+    app: web
+spec:
+  selector:
+    matchLabels:
+      app: web
+  replicas: 3
+  template:
+    metadata:
+      name: client-pod
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: client-container
+        image: nginx
+        ports:
+        - containerPort: 80
+        env:
+        - name: USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: secret1
+              key: username
+        - name: PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: secret1
+              key: password
