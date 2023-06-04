@@ -1,0 +1,9 @@
+deployment:
+  applicationname: quizapp
+  labelkey: quiz
+  labelvalue: app
+  port: 3000
+  imageurl: hothaifaz11/questapp:v1
+  numberofreplicas: 2
+service:
+  nodePort: 30002
