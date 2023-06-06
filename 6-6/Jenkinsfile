@@ -1,5 +1,9 @@
 pipeline{
     agent any
+    environment{
+        NAME= 'zahi'
+        LASTNAME= 'toozon'
+    }
     stages{
         stage('checkout'){
             steps{
@@ -26,7 +30,7 @@ pipeline{
             sh 'echo please give me more time'
         }
         success{
-            sh 'echo docker build -t hothaifaimage .'
+            sh 'echo docker build -t $NAME$LASTNAME .'
         }
         failure{
             sh 'echo die'
