@@ -25,5 +25,11 @@ pipeline{
         aborted{
             sh 'echo please give me more time'
         }
+        success{
+            sh 'echo docker build -t hothaifaimage .'
+        }
+        failure{
+            sh 'echo die'
+        }
     }
 }
