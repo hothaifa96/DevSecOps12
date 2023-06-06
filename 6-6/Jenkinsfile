@@ -13,7 +13,9 @@ pipeline{
         }
         stage('test'){
             steps{
-                sh 'echo testinnnnnnng'
+                retry(3){
+                    sh 'erho testinnnnnnng'
+                }
             }
         }
     }
