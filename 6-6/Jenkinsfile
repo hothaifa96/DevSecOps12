@@ -13,11 +13,12 @@ pipeline{
         }
         stage('test'){
             steps{
-                timeout(3,unit: 'SECONDS'){
+                timeout(time: 3,unit: 'SECONDS'){
                     sh 'ping 8.8.8.8 '
                 }
                 
             }
         }
+    
     }
 }
