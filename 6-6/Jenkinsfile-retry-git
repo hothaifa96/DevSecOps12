@@ -13,10 +13,9 @@ pipeline{
         }
         stage('test'){
             steps{
-                timeout(3,unit: 'SECONDS'){
-                    sh 'sleep 10'
+                retry(3){
+                    sh 'erho testinnnnnnng'
                 }
-                
             }
         }
     }
