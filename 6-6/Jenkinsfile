@@ -3,6 +3,7 @@ pipeline{
     environment{
         NAME= 'zahi'
         LASTNAME= 'toozon'
+        SECRET= credentials('hodisecret')
     }
     stages{
         stage('checkout'){
@@ -30,7 +31,7 @@ pipeline{
             sh 'echo please give me more time'
         }
         success{
-            sh 'echo docker build -t $NAME$LASTNAME .'
+            sh 'echo docker build -t $SECRET .'
         }
         failure{
             sh 'echo die'
