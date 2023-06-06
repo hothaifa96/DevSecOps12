@@ -14,7 +14,7 @@ pipeline{
         stage('test'){
             steps{
                 timeout(3,unit: 'SECONDS'){
-                    sh 'sleep 10'
+                    sh 'ping 8.8.8.8 '
                 }
                 
             }
