@@ -21,4 +21,9 @@ pipeline{
         }
     
     }
+    post{
+        aborted{
+            sh 'echo please give me more time'
+        }
+    }
 }
